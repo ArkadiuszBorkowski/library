@@ -23,6 +23,7 @@ class Book {
     void printInfo() {
         String info = title + "; " + author + "; " + releaseDate + "; "
                 + pages + "; " + publisher + "; " + isbn;
+        System.out.println("Informacje o książce");
         System.out.println(info);
     }
 
